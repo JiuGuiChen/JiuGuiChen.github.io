@@ -4,11 +4,43 @@
   
   
   <entry>
+    <title>PABank</title>
+    <link href="/2024/09/20/PABank/"/>
+    <url>/2024/09/20/PABank/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>CNABS</title>
+    <link href="/2024/09/20/CNABS/"/>
+    <url>/2024/09/20/CNABS/</url>
+    
+    <content type="html"><![CDATA[<h1 id="业务知识"><a href="#业务知识" class="headerlink" title="业务知识"></a>业务知识</h1><h2 id="资产证券化"><a href="#资产证券化" class="headerlink" title="资产证券化"></a>资产证券化</h2><h3 id="简述"><a href="#简述" class="headerlink" title="简述"></a>简述</h3><p>简单来说，资产证券化就是持有基础资产的主体（以下简称“原始权益人”或“发起机构”），把一个能够产生稳定现金流的资产（以下简称“基础资产”），通过向一个由金融机构担任管理人或受托人（以下简称“管理人”）的特殊目的载体（以下简称“特殊目的载体”或“SPV”）转让的化方式，变成具有名义本金和收益的证券（以下简称“资产支持证券”），向一个或多个投资者（以下简称“投资者”或“持有人”）发行&#x2F;销售的金融交易。</p><h3 id="参与机构与主要职责"><a href="#参与机构与主要职责" class="headerlink" title="参与机构与主要职责"></a>参与机构与主要职责</h3><p>|参与机构|主要职责|<br>|原始权益人&#x2F;发起机构|持有基础资产并向特殊目的载体进行转让并完成发行,获得发行收入|<br>|管理人|代表持有人的利益,以自己的名义对基础资产进行管理、运用和处分|<br>|投资者&#x2F;持有人|认购资产支持证券并成为信托法律关系的受益人|<br>|服务机构|为已经转移的基础资产提供资产管理、催收、处置等服务,一般为原始权益人或发起机构继续担任|<br>|资金监管机构|对于交易中的各账户及其资金进行托管和监管|</p><h3 id="ABS的基础资产主要类型"><a href="#ABS的基础资产主要类型" class="headerlink" title="ABS的基础资产主要类型"></a>ABS的基础资产主要类型</h3><p>当基础资产为信贷资产时，一般包括对公贷款、住房抵押贷款、汽车贷款、信用卡贷款、金融租赁资产等。<br>当基础资产为非信贷资产时，一般包括可以包括供应链应收账款、购房尾款、融资租赁资产、小额贷款资产、公用事业收费收益权等。<br>地产行业的特殊类型（广义的）资产证券化还包括 CMBS（即 Commercial Mortgage Backed Securities，商业地产抵押贷款支持证券）、REIT（即 Real Estate Investment Trust，房地产投资信托）等。</p><h3 id="信用增级"><a href="#信用增级" class="headerlink" title="信用增级"></a>信用增级</h3><p>信用增级指的是通过各种方式增加资产支持证券或者增加某一类资产支持证券的信用等级。信用增级可以被进一步分为通过基础资产本身现金流进行的（内部增信）和通过基础资产以外的现金流&#x2F;信用进行的（外部增信）。<br>|分类|常见方式|<br>|内部增信|优先&#x2F;劣后分层结构、流动性储备账户|<br>|外部增信|超额利差、差额补足、流动性支持|</p><h3 id="两个市场"><a href="#两个市场" class="headerlink" title="两个市场"></a>两个市场</h3><ol><li>交易所市场，包括上海证券交易所（以下简称“上交所”）和深圳证券交易所（以下简称“深交所”）</li><li>银行间市场，即全国银行间债券市场；银行间市场可以发行和交易的资产证券化产品类型包括信贷资产证券化（因为其基础资产类型为信贷资产，一般约定俗成地用英文 Collateralized Loan Obligation 指代此类产品，以下简称“CLO”）和资产支持票据（即英文 Asset Backed Note，以下简称“ABN”）。</li></ol><h3 id="日期与期间"><a href="#日期与期间" class="headerlink" title="日期与期间"></a>日期与期间</h3><p>|重要日期|封包日、起息日、计算日、兑付日|<br>|重要期间|收款期间（计算日到计算日）、计息期间（一般是兑付日到兑付日）|</p><h3 id="现金流分配顺序"><a href="#现金流分配顺序" class="headerlink" title="现金流分配顺序"></a>现金流分配顺序</h3><p>重点关注：是否区分本金利息账户、有无储备账户、有无循环购买、触发事件发生前后</p><p>参考链接：<br>1、<a href="https://mp.weixin.qq.com/s/idCfpgUQXqsRgbEEcCOc4Q">资产证券化业务入门</a><br>2、<a href="https://mp.weixin.qq.com/s/tzkRuTHvhKUWKsYOa5MJhw">精选丨读懂ABS 2021年资产证券化干货汇编</a><br>3、<a href="https://mp.weixin.qq.com/s/2xsy7lsjnXrH9trlPB7gRA">【CNABS连载】资产支持证券的购买与出售</a><br>4、<a href="https://mp.weixin.qq.com/s/Kd1PBOSbha8Zv2dqg6k8jQ">漫话ABS | 忽然就看懂了ABS次级档证券！</a></p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>干货</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>markdown教程</title>
     <link href="/2024/09/20/markdown/"/>
     <url>/2024/09/20/markdown/</url>
     
-    <content type="html"><![CDATA[<h1 id="markdown是什么"><a href="#markdown是什么" class="headerlink" title="markdown是什么"></a>markdown是什么</h1><p>Markdown 是一种轻量级标记语言，创始人为约翰·格鲁伯（John Gruber），它允许人们使用易读易写的纯文本格式编写文档，然后转换成有效的HTML文档，使用它编写的文档可以导出 HTML 、Word、图像、PDF、Epub 等多种格式的文档，其编写的文档后缀为 .md, .markdown。</p><h1 id="基本语法"><a href="#基本语法" class="headerlink" title="基本语法"></a>基本语法</h1><h2 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h2><p>使用#号标记，可以表示1-6级标题， 随#的个数递增，一级标题字号最大，六级标题字号最小。</p><p>代码如下：</p><figure class="highlight clean"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs clean"># 一级标题<br>## 二级标题<br>### 三级标题<br>#### 四级标题<br>##### 五级标题<br>###### 六级标题<br></code></pre></td></tr></table></figure><p>效果如下：</p><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><p>注意：最后一个#字符与标题中间留一个空格；标题应该置于行首，如果放入表格中可能无法正确解析。</p><h2 id="字体"><a href="#字体" class="headerlink" title="字体"></a>字体</h2><p>代码:</p><figure class="highlight asciidoc"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs asciidoc">text<br><span class="hljs-strong">**这是粗体**</span><br>~~这是删除线~~<br>&lt;u这是下划线&lt;/u<br><span class="hljs-strong">*这是斜体*</span><br>==这是高亮==<br></code></pre></td></tr></table></figure><p>效果:<br><strong>这是粗体</strong><br><del>这是删除线</del><br>&lt;u这是下划线&lt;&#x2F;u<br><em>这是斜体</em><br>&#x3D;&#x3D;这是高亮&#x3D;&#x3D;</p><p>快捷键:</p><ul><li>加粗:  Ctrl+B</li><li>删除线:  Shift+Alt+5</li><li>下划线:  Ctrl+U</li><li>斜体:  Ctrl+I</li></ul><h1 id="参考链接："><a href="#参考链接：" class="headerlink" title="参考链接："></a>参考链接：</h1><p>1、<a href="https://mp.weixin.qq.com/s/ePl6sJ3cKqi8QiypTs8trA">https://mp.weixin.qq.com/s/ePl6sJ3cKqi8QiypTs8trA</a><br>2、<a href="https://space.bilibili.com/508828019">https://space.bilibili.com/508828019</a></p>]]></content>
+    <content type="html"><![CDATA[<h1 id="markdown是什么"><a href="#markdown是什么" class="headerlink" title="markdown是什么"></a>markdown是什么</h1><p>Markdown 是一种轻量级标记语言，创始人为约翰·格鲁伯（John Gruber），它允许人们使用易读易写的纯文本格式编写文档，然后转换成有效的HTML文档，使用它编写的文档可以导出 HTML 、Word、图像、PDF、Epub 等多种格式的文档，其编写的文档后缀为 .md, .markdown。</p><h1 id="基本语法"><a href="#基本语法" class="headerlink" title="基本语法"></a>基本语法</h1><h2 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h2><p>使用#号标记，可以表示1-6级标题， 随#的个数递增，一级标题字号最大，六级标题字号最小。</p><p>代码如下：</p><figure class="highlight clean"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs clean"># 一级标题<br>## 二级标题<br>### 三级标题<br>#### 四级标题<br>##### 五级标题<br>###### 六级标题<br></code></pre></td></tr></table></figure><p>注意：最后一个#字符与标题中间留一个空格；标题应该置于行首，如果放入表格中可能无法正确解析。</p><h2 id="字体"><a href="#字体" class="headerlink" title="字体"></a>字体</h2><p>代码:</p><figure class="highlight asciidoc"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs asciidoc">text<br><span class="hljs-strong">**这是粗体**</span><br>~~这是删除线~~<br>&lt;u这是下划线&lt;/u<br><span class="hljs-strong">*这是斜体*</span><br>==这是高亮==<br></code></pre></td></tr></table></figure><p>效果:<br><strong>这是粗体</strong><br><del>这是删除线</del><br>&lt;u这是下划线&lt;&#x2F;u<br><em>这是斜体</em><br>&#x3D;&#x3D;这是高亮&#x3D;&#x3D;</p><p>快捷键:</p><ul><li>加粗:  Ctrl+B</li><li>删除线:  Shift+Alt+5</li><li>下划线:  Ctrl+U</li><li>斜体:  Ctrl+I</li></ul><h1 id="参考链接："><a href="#参考链接：" class="headerlink" title="参考链接："></a>参考链接：</h1><p>1、<a href="https://mp.weixin.qq.com/s/ePl6sJ3cKqi8QiypTs8trA">https://mp.weixin.qq.com/s/ePl6sJ3cKqi8QiypTs8trA</a><br>2、<a href="https://space.bilibili.com/508828019">https://space.bilibili.com/508828019</a></p>]]></content>
     
     
     <categories>
