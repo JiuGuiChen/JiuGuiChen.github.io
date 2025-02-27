@@ -100,7 +100,7 @@
 
 
   
-<meta name="generator" content="Hexo 7.3.0"></head>
+<meta name="generator" content="Hexo 7.3.0"><link rel="stylesheet" href="/css/prism.css" type="text/css"></head>
 
 
 <body>
@@ -238,7 +238,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          664 字
+          731 字
         
       </span>
     
@@ -249,7 +249,7 @@
         
         
         
-          6 分钟
+          7 分钟
         
       </span>
     
@@ -316,12 +316,12 @@
                 <h1 id="markdown是什么"><a href="#markdown是什么" class="headerlink" title="markdown是什么"></a>markdown是什么</h1><p>Markdown 是一种轻量级标记语言，创始人为约翰·格鲁伯（John Gruber），它允许人们使用易读易写的纯文本格式编写文档，然后转换成有效的HTML文档，使用它编写的文档可以导出 HTML 、Word、图像、PDF、Epub 等多种格式的文档，其编写的文档后缀为 .md, .markdown。</p>
 <h1 id="基本语法"><a href="#基本语法" class="headerlink" title="基本语法"></a>基本语法</h1><h2 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h2><p>使用#号标记，可以表示1-6级标题， 随#的个数递增，一级标题字号最大，六级标题字号最小。</p>
 <p>代码如下：</p>
-<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs yaml"><span class="hljs-comment"># 一级标题</span><br><span class="hljs-comment">## 二级标题</span><br><span class="hljs-comment">### 三级标题</span><br><span class="hljs-comment">#### 四级标题</span><br><span class="hljs-comment">##### 五级标题</span><br><span class="hljs-comment">###### 六级标题</span><br></code></pre></td></tr></table></figure>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre class=" language-hljs yaml"><span class="hljs-comment"># 一级标题</span><br><span class="hljs-comment">## 二级标题</span><br><span class="hljs-comment">### 三级标题</span><br><span class="hljs-comment">#### 四级标题</span><br><span class="hljs-comment">##### 五级标题</span><br><span class="hljs-comment"><code class="language-hljs yaml"><span class="hljs-comment"># 一级标题</span><br><span class="hljs-comment">## 二级标题</span><br><span class="hljs-comment">### 三级标题</span><br><span class="hljs-comment">#### 四级标题</span><br><span class="hljs-comment">##### 五级标题</span><br><span class="hljs-comment">###### 六级标题</span><br></code></pre></td></tr></table></figure>
 
 
 <p>注意：最后一个#字符与标题中间留一个空格；标题应该置于行首，如果放入表格中可能无法正确解析。</p>
 <h2 id="字体"><a href="#字体" class="headerlink" title="字体"></a>字体</h2><p>代码:</p>
-<figure class="highlight asciidoc"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><code class="hljs asciidoc">text<br><span class="hljs-strong">**这是粗体**</span><br>~~这是删除线~~<br>&lt;u&gt;这是下划线&lt;/u&gt;<br><span class="hljs-strong">**这是下划线**</span><br><span class="hljs-strong">*这是斜体*</span><br>==这是高亮==<br></code></pre></td></tr></table></figure>
+<figure class="highlight asciidoc"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre class=" language-hljs asciidoc">text<br><span class="hljs-strong">**这是粗体**</span><br>~~这是删除线~~<br>&lt;u&gt;这是下划线&lt;/u&gt;<br><span class="hljs-strong">**这是下划线**</span><br><span class="hljs-strong"><code class="language-hljs asciidoc">text<br><span class="hljs-strong">**这是粗体**</span><br>~~这是删除线~~<br>&lt;u&gt;这是下划线&lt;/u&gt;<br><span class="hljs-strong">**这是下划线**</span><br><span class="hljs-strong">*这是斜体*</span><br>==这是高亮==<br></code></pre></td></tr></table></figure>
 
 <p>效果:<br><strong>这是粗体</strong><br><del>这是删除线</del><br><u>这是下划线</u></p>
 <p>这是斜体*<br>&#x3D;&#x3D;这是高亮&#x3D;&#x3D;</p>
@@ -333,10 +333,10 @@
 <li>斜体:  Ctrl+I</li>
 </ul>
 <h2 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h2><p>代码：</p>
-<figure class="highlight autohotkey"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs autohotkey">```<br>print(<span class="hljs-string">&quot;hello,world!&quot;</span>)<br>```<br></code></pre></td></tr></table></figure>
+<figure class="highlight autohotkey"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre class=" language-hljs autohotkey">```<br>print(<span class="hljs-string"><code class="language-hljs autohotkey">```<br>print(<span class="hljs-string">"hello,world!"</span>)<br>```<br></code></pre></td></tr></table></figure>
 
 <p>效果：</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-built_in">print</span>(<span class="hljs-string">&quot;hello,world!&quot;</span>)<br></code></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre class=" language-hljs python"><span class="hljs-built_in">print</span>(<span class="hljs-string"><code class="language-hljs python"><span class="hljs-built_in">print</span>(<span class="hljs-string">"hello,world!"</span>)<br></code></pre></td></tr></table></figure>
 
 
 
@@ -347,7 +347,7 @@
 <li><code>:-:</code>：将表头及单元格内容居中</li>
 </ul>
 <p><strong>代码：</strong></p>
-<figure class="highlight gherkin"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs gherkin">|<span class="hljs-string">序号</span>|<span class="hljs-string"> 项目        </span>|<span class="hljs-string"> 价格   </span>|<span class="hljs-string">  数量  </span>|<br>|<span class="hljs-string">:-</span>|<span class="hljs-string"> -----  </span>|<span class="hljs-string"> -----:  </span>|<span class="hljs-string"> :----:  </span>|<br>|<span class="hljs-string">1</span>|<span class="hljs-string"> 计算机     </span>|<span class="hljs-string"> \$1600 </span>|<span class="hljs-string">   5     </span>|<br>|<span class="hljs-string">2</span>|<span class="hljs-string"> 手机        </span>|<span class="hljs-string">   \$12   </span>|<span class="hljs-string">   12   </span>|<br>|<span class="hljs-string">3</span>|<span class="hljs-string"> 管线        </span>|<span class="hljs-string">    \$1    </span>|<span class="hljs-string">  234  </span>|<br></code></pre></td></tr></table></figure>
+<figure class="highlight gherkin"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre class=" language-hljs gherkin">|<span class="hljs-string">序号</span>|<span class="hljs-string"> 项目        </span>|<span class="hljs-string"> 价格   </span>|<span class="hljs-string">  数量  </span>|<br>|<span class="hljs-string">:-</span>|<span class="hljs-string"> -----  </span>|<span class="hljs-string"> -----:  </span>|<span class="hljs-string"> :----:  </span>|<br>|<span class="hljs-string">1</span>|<span class="hljs-string"> 计算机     </span>|<span class="hljs-string"> \$1600 </span>|<span class="hljs-string">   5     </span>|<br>|<span class="hljs-string">2</span>|<span class="hljs-string"> 手机        </span>|<span class="hljs-string">   \$12   </span>|<span class="hljs-string">   12   </span>|<br>|<span class="hljs-string">3</span>|<span class="hljs-string"> 管线        </span>|<span class="hljs-string">    \$1    </span>|<span class="hljs-string"><code class="language-hljs gherkin">|<span class="hljs-string">序号</span>|<span class="hljs-string"> 项目        </span>|<span class="hljs-string"> 价格   </span>|<span class="hljs-string">  数量  </span>|<br>|<span class="hljs-string">:-</span>|<span class="hljs-string"> -----  </span>|<span class="hljs-string"> -----:  </span>|<span class="hljs-string"> :----:  </span>|<br>|<span class="hljs-string">1</span>|<span class="hljs-string"> 计算机     </span>|<span class="hljs-string"> \$1600 </span>|<span class="hljs-string">   5     </span>|<br>|<span class="hljs-string">2</span>|<span class="hljs-string"> 手机        </span>|<span class="hljs-string">   \$12   </span>|<span class="hljs-string">   12   </span>|<br>|<span class="hljs-string">3</span>|<span class="hljs-string"> 管线        </span>|<span class="hljs-string">    \$1    </span>|<span class="hljs-string">  234  </span>|<br></code></pre></td></tr></table></figure>
 
 <p><strong>效果：</strong></p>
 <table>
@@ -385,7 +385,7 @@
 <p>在Markdown中，表格的列宽默认都是按照单元格内容自适应，内容一多，排版就比较混乱。这个时候我们就很希望能调整列宽，让表格显示的美观一些，但很不幸，Markdown并没有原生提供这个功能。</p>
 </blockquote>
 <h2 id="无序列表"><a href="#无序列表" class="headerlink" title="无序列表"></a>无序列表</h2><p>代码：</p>
-<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs text">* +空格<br>- +空格<br>+ +空格<br></code></pre></td></tr></table></figure>
+<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre class=" language-hljs text"><code class="language-hljs text">* +空格<br>- +空格<br>+ +空格<br></code></pre></td></tr></table></figure>
 
 <p>效果：<br>1.只有同一级别:</p>
 <ul>
@@ -406,7 +406,7 @@
 </ul>
 <p>快捷键:  Ctrl+Shift+]</p>
 <h2 id="有序列表"><a href="#有序列表" class="headerlink" title="有序列表"></a>有序列表</h2><p>代码:</p>
-<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs text">数字+.+空格<br></code></pre></td></tr></table></figure>
+<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre class=" language-hljs text"><code class="language-hljs text">数字+.+空格<br></code></pre></td></tr></table></figure>
 
 <p>效果:</p>
 <ol>
@@ -425,7 +425,7 @@
 </ol>
 <p>快捷键:  Ctrl+Shift+[</p>
 <h2 id="任务列表"><a href="#任务列表" class="headerlink" title="任务列表"></a>任务列表</h2><p>代码:</p>
-<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs text">- [ ] 吃早餐<br>- [x] 背单词<br></code></pre></td></tr></table></figure>
+<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre class=" language-hljs text"><code class="language-hljs text">- [ ] 吃早餐<br>- [x] 背单词<br></code></pre></td></tr></table></figure>
 
 <p>效果:</p>
 <ul>

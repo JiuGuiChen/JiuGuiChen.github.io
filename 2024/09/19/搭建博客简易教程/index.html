@@ -100,7 +100,7 @@
 
 
   
-<meta name="generator" content="Hexo 7.3.0"></head>
+<meta name="generator" content="Hexo 7.3.0"><link rel="stylesheet" href="/css/prism.css" type="text/css"></head>
 
 
 <body>
@@ -238,7 +238,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          239 字
+          254 字
         
       </span>
     
@@ -249,7 +249,7 @@
         
         
         
-          2 分钟
+          3 分钟
         
       </span>
     
@@ -317,24 +317,24 @@
 <h1 id="更换主题教程"><a href="#更换主题教程" class="headerlink" title="更换主题教程"></a>更换主题教程</h1><p><a target="_blank" rel="noopener" href="https://hexo.fluid-dev.com/docs/start/">开始使用 | Hexo Fluid 用户手册 (fluid-dev.com)</a></p>
 <p>博客中插入图片推荐路径：D:\Hexo\blog\source\img</p>
 <p>我们在Blog文件夹中打开git bash,输入下方代码就可以生成新的文章md文件</p>
-<figure class="highlight actionscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs actionscript">hexo <span class="hljs-keyword">new</span> 文章标题<br></code></pre></td></tr></table></figure>
+<figure class="highlight actionscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre class=" language-hljs actionscript">hexo <span class="hljs-keyword"><code class="language-hljs actionscript">hexo <span class="hljs-keyword">new</span> 文章标题<br></code></pre></td></tr></table></figure>
 
 <p>文章是.md格式，在我们的Blog文件夹中的source&#x2F;_posts中</p>
 <p>清除缓存可以用</p>
-<figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs ebnf"><span class="hljs-attribute">hexo clean</span><br></code></pre></td></tr></table></figure>
+<figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre class=" language-hljs ebnf"><span class="hljs-attribute"><code class="language-hljs ebnf"><span class="hljs-attribute">hexo clean</span><br></code></pre></td></tr></table></figure>
 
 
 
 <p>最后的上传</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs fallback">hexo g<br>hexo d<br></code></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre class=" language-hljs fallback"><code class="language-hljs fallback">hexo g<br>hexo d<br></code></pre></td></tr></table></figure>
 
 <p>layout：会影响文章显示的方式，会失去侧边栏标题</p>
 <p>首次使用主题的「关于页」需要手动创建：</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new page about<br></code></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre class=" language-hljs bash"><code class="language-hljs bash">$ hexo new page about<br></code></pre></td></tr></table></figure>
 
 <p>创建成功后修改 <code>/source/about/index.md</code>，添加 <code>layout</code> 属性。</p>
 <p>修改后的文件示例如下：</p>
-<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs yaml"><span class="hljs-meta">---</span><br><span class="hljs-attr">title:</span> <span class="hljs-string">标题</span><br><span class="hljs-attr">layout:</span> <span class="hljs-string">about</span><br><span class="hljs-meta">---</span><br><span class="hljs-meta"></span><br><span class="hljs-string">这里可以写正文，支持</span> <span class="hljs-string">Markdown,</span> <span class="hljs-string">HTML</span><br></code></pre></td></tr></table></figure>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre class=" language-hljs yaml"><span class="hljs-meta">---</span><br><span class="hljs-attr">title:</span> <span class="hljs-string">标题</span><br><span class="hljs-attr">layout:</span> <span class="hljs-string">about</span><br><span class="hljs-meta">---</span><br><span class="hljs-meta"></span><br><span class="hljs-string">这里可以写正文，支持</span> <span class="hljs-string">Markdown,</span> <span class="hljs-string"><code class="language-hljs yaml"><span class="hljs-meta">---</span><br><span class="hljs-attr">title:</span> <span class="hljs-string">标题</span><br><span class="hljs-attr">layout:</span> <span class="hljs-string">about</span><br><span class="hljs-meta">---</span><br><span class="hljs-meta"></span><br><span class="hljs-string">这里可以写正文，支持</span> <span class="hljs-string">Markdown,</span> <span class="hljs-string">HTML</span><br></code></pre></td></tr></table></figure>
 
 <p>WARNING</p>
 <p><code>layout: about</code> 必须存在，并且不能修改成其他值，否则不会显示头像等样式。</p>
